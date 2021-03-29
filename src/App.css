@@ -1,0 +1,23 @@
+body {
+  background-color: #ddd;
+}
+
+.employee-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.employee-card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+  border: 1px solid black;
+  background-color: #fff;
+  flex: 1 0 30em;
+}
+
+.employee-card img {
+  border-radius: 50%;
+  margin-right: 2rem;
+}
